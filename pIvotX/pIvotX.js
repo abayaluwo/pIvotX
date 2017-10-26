@@ -100,6 +100,18 @@ Object.defineProperty(Circle.prototype, "fillColor", {
 
 //end rectangle
 
+//font modifire
+function Label(text,point_posision) {
+  this.tag ="Label";
+  this.emptyContext = new Object();
+
+
+}
+
+//end font modifire
+
+
+
 function Point(_x,_y) {
   return {x:_x,y:_y}
 }
